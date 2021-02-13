@@ -50,9 +50,9 @@ function makeTiles(){
   if(frameCount%90===0){
     tile = createSprite(Math.round(random(30,370)),0,10,10);
     tile.addImage("tileI",tileImage);
-    tile.velocityY=6;
+    tile.velocityY=9;
     tile.scale=0.4;
-    tile.setLifetime=578/6;
+    tile.setLifetime=578/9;
     tileGroup.add(tile);
   }
 }
