@@ -47,7 +47,7 @@ function draw() {
 }
 
 function makeTiles(){
-  if(frameCount%90===0){
+  if(frameCount%140===0){
     tile = createSprite(Math.round(random(30,370)),0,10,10);
     tile.addImage("tileI",tileImage);
     tile.velocityY=9;
